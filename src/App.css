@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+}
+
+.header, .footer {
+  width: 100%;
+}
+
+.button-clear {
+  background-color:rgb(3,203,189);
+  color: #ffffff;
+  height: 25px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.delete-btn{
+  margin: left 5px;
+  background-color:rgb(3,203,189);
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.postcode-found{
+  background-color: #fff;
+  cursor: pointer;
+  color: rgb(3,203,189);
+  margin: 10px;
+}
+
+.table-container{ 
+  margin:0 40px;
+}
+
+.postcode-found:hover{
+  color: rgb(3,203,189);
+  text-decoration: underline;
+  font-weight: 800;
+}
